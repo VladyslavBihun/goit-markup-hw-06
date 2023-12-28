@@ -531,18 +531,17 @@ img {
   }
 } */
 
-/* The second method */
-.portfolio-img-tab {
-  display: none;
-}
+/*  */
 
+/* The second method */
+
+.portfolio-img-tab,
 .portfolio-img {
   display: none;
 }
 
 @media only screen and (min-width: 758px) {
-  .portfolio-img-mob,
-  .portfolio-img {
+  .portfolio-img-mob {
     display: none;
   }
 
@@ -552,7 +551,6 @@ img {
 }
 
 @media only screen and (min-width: 1158px) {
-  .portfolio-img-mob,
   .portfolio-img-tab {
     display: none;
   }
@@ -561,6 +559,8 @@ img {
     display: block;
   }
 }
+
+/*  */
 
 .overlay {
   position: absolute;
