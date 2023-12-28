@@ -508,6 +508,7 @@ img {
   position: relative;
   overflow: hidden;
 }
+/* The first method */
 
 /* @media only screen and (max-width: 757.98px) {
   .portfolio-img-tab,
@@ -516,7 +517,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 758px) and (max-width: 1157.98) {
+@media only screen and (min-width: 758px) and (max-width: 1157.98px) {
   .portfolio-img-mob,
   .portfolio-img {
     display: none;
@@ -530,6 +531,7 @@ img {
   }
 } */
 
+/* The second method */
 .portfolio-img-tab {
   display: none;
 }
